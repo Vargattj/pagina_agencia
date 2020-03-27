@@ -171,14 +171,20 @@ color: black;
   font-weight: bold;
 }
 
-@media (min-width: 720px) and (max-width: 980px){
-  .main-start{
-    max-width: 960;
-    margin: 0 auto;
-  }
-  .main-start h1{
-    font-size: 3em;
-  }
+@media (max-width: 980px){
+.container-main{
+  flex-direction: column;
+}
+.phone-img img{
+  margin-top: 50px;
+  margin: 50px auto;
+}
+.container-services{
+  flex-direction: column;
+}
+.service{
+  margin: 0 auto;
+}
 }
 /* intro */
 .intro{
